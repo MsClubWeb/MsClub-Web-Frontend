@@ -106,92 +106,123 @@
   }
 }
 
-:root {
-  --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
-  --color-redwine: #8D153A;
-  --color-deepteal: #00534E;
-  --color-primary: #EB7400;
-  --color-skyblue: #1485B4;
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
 
-  --bg-primary: var(--color-primary);
-  --text-primary: var(--color-primary);
-  --border-primary: var(--color-primary);
-  --ring-primary: var(--color-primary);
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    /* Microsoft Blue */
+    --primary: 207 100% 42%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 207 100% 42%;
+
+    --radius: 0.5rem;
+
+    /* Fluent UI specific variables */
+    --acrylic-opacity: 0.8;
+    --acrylic-blur: 20px;
+    --reveal-glow: 0 0 10px rgba(0, 120, 212, 0.2);
+    --reveal-border: rgba(0, 120, 212, 0.3);
+    --depth-shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.05);
+    --depth-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+    --depth-shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+    --motion-duration: 0.2s;
+    --motion-ease: cubic-bezier(0.33, 1, 0.68, 1);
+    --mica-opacity: 0.9;
+
+    /* Microsoft brand colors */
+    --ms-blue: 207 100% 42%;
+    --ms-red: 6 78% 57%;
+    --ms-green: 120 80% 28%;
+    --ms-yellow: 40 100% 50%;
+
+    /* UWU & Sri Lankan inspired colors */
+    --uwu-tea-green: 120 30% 70%;
+    --uwu-mountain-blue: 207 100% 42%;
+    --uwu-waterfall-cyan: 190 80% 60%;
+    --uwu-cinnamon-brown: 25 60% 40%;
+    --uwu-scenic-purple: 280 50% 60%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    /* Microsoft Blue - darker for dark mode */
+    --primary: 207 100% 50%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 207 100% 50%;
+
+    /* Fluent UI specific variables for dark mode */
+    --acrylic-opacity: 0.7;
+    --reveal-glow: 0 0 10px rgba(72, 180, 255, 0.25);
+    --reveal-border: rgba(72, 180, 255, 0.4);
+    --depth-shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.2);
+    --depth-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.25);
+    --depth-shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.3);
+    --mica-opacity: 0.85;
+
+    /* Microsoft brand colors - dark mode */
+    --ms-blue: 207 100% 50%;
+    --ms-red: 6 78% 57%;
+    --ms-green: 120 60% 33%;
+    --ms-yellow: 40 100% 55%;
+
+    /* UWU & Sri Lankan inspired colors - dark mode */
+    --uwu-tea-green: 120 20% 40%;
+    --uwu-mountain-blue: 207 100% 42%;
+    --uwu-waterfall-cyan: 190 60% 30%;
+    --uwu-cinnamon-brown: 25 40% 30%;
+    --uwu-scenic-purple: 280 30% 40%;
+  }
+  .theme {
+    --animate-marquee: marquee var(--duration) infinite linear;
+    --animate-marquee-vertical: marquee-vertical var(--duration) linear infinite;
+  }
 }
 
-.dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.488 0.243 264.376);
-  --chart-2: oklch(0.696 0.17 162.48);
-  --chart-3: oklch(0.769 0.188 70.08);
-  --chart-4: oklch(0.627 0.265 303.9);
-  --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
-  --color-redwine: #8D153A;
-  --color-deepteal: #00534E;
-  --color-primary: #EB7400;
-  --color-skyblue: #1485B4;
-
-  --bg-primary: var(--color-primary);
-  --text-primary: var(--color-primary);
-  --border-primary: var(--color-primary);
-  --ring-primary: var(--color-primary);
-}
 
 @layer base {
   * {
@@ -236,6 +267,10 @@
   }
 
 
+}
 
-
+@layer components {
+  .container {
+    @apply mx-auto px-4; /* Centers container and adds slight padding */
+  }
 }
