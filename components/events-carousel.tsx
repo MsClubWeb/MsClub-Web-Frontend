@@ -104,7 +104,7 @@ export default function EventsCarousel() {
                 <CardContent className="p-6 flex-1 flex flex-col">
                   {/* Title and Description - Fixed height area */}
                   <div className="mb-4 min-h-[120px]">
-                    <h3 className="text-xl font-bold mb-2 group-hover:text-blue-600 transition-colors line-clamp-2">
+                    <h3 className="text-xl font-bold mb-2 transition-colors line-clamp-2">
                       {event.title}
                     </h3>
                     <p className="text-muted-foreground line-clamp-3">{event.description}</p>

@@ -23,6 +23,7 @@ import { WebPageSchema } from "@/components/structured-data";
 import UpcomingEvents from "@/components/UpcomingEvents";
 import PastEvents from "@/components/PastEvents";
 import { useState, useEffect } from "react";
+import EventsCarousel from "@/components/events-carousel";
 
 
 function getUpcomingEvents() {
@@ -313,7 +314,7 @@ export default function EventsPage() {
 
               {/* Events using separate components */}
               <TabsContent value="upcoming" className="mt-8">
-                <UpcomingEvents upcomingEvents={filteredUpcomingEvents} />
+                <EventsCarousel upcomingEvents={filteredUpcomingEvents} />
                 {filteredUpcomingEvents.length === 0 && (
                   <div className="text-center py-12">
                     <p className="text-gray-500 dark:text-gray-400 text-lg">
