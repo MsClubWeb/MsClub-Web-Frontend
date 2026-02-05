@@ -242,7 +242,7 @@ export default function BoardPage() {
             </div>
 
             <div className="flex flex-wrap justify-center gap-8">
-              {committeeMembers.slice(0, 13).map((member, index) => (
+              {committeeMembers.slice(0, 14).map((member, index) => (
                 <Card
                   key={member.id}
                   className="depth-2 hover:depth-3 transition-all duration-300 border-none bg-white/80 dark:bg-black/40 backdrop-blur-sm motion-fade animate-in fade-in-0 slide-in-from-bottom-5 w-56"
