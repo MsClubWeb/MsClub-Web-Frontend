@@ -429,7 +429,7 @@ export default function Home() {
                 title={member.name}
               >
                 <img 
-                  src={member.image.split('?')[0]} // Remove query parameters
+                  src={member.image} // Remove query parameters
                   alt={member.name} 
                   className="w-full h-full object-cover"
                 />
