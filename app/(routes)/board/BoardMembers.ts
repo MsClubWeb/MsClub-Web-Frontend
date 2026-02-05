@@ -31,7 +31,7 @@ export const boardMembers = [
     name: "Vihini Ranasinghe",
     role: "President",
     year: "2025-2026",
-    level: "gold",
+    level: "",
     image: vihini,
     social: {
       linkedin: "https://www.linkedin.com/in/vihini-wathsiluni-a57b1323a",
@@ -43,7 +43,7 @@ export const boardMembers = [
     Status:"Active",
     name: "Theekshana Nirmal",
     year: "2025-2026",
-    level: "gold",
+    level: "",
     role: "Vice President",
     image: theekshana,
     social: {
