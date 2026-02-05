@@ -257,7 +257,7 @@ export default function Home() {
                     <Link
                       href={post.mediumLink || `/blog/${post.id}`}
                       target={post.mediumLink ? "_blank" : "_self"}
-                      className="block group-hover:text-blue-600 transition-colors"
+                      className="block transition-colors"
                     >
                       <h3 className="text-xl font-bold mb-2 line-clamp-2">
                         {post.title}
@@ -429,7 +429,7 @@ export default function Home() {
                 title={member.name}
               >
                 <img 
-                  src={member.image.split('?')[0]} // Remove query parameters
+                  src={member.image} // Remove query parameters
                   alt={member.name} 
                   className="w-full h-full object-cover"
                 />

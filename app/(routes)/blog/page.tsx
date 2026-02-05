@@ -122,7 +122,7 @@ export default function BlogPage() {
                 <Link 
                   href={post.mediumLink || `/blog/${post.id}`} 
                   target={post.mediumLink ? "_blank" : "_self"}
-                  className="block group-hover:text-blue-600 transition-colors"
+                  className="block transition-colors"
                 >
                   <h3 className="text-xl font-bold mb-2 line-clamp-2">
                     {post.title}
