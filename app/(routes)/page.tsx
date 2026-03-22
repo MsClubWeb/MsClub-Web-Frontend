@@ -429,7 +429,7 @@ export default function Home() {
                 title={member.name}
               >
                 <img 
-                  src={member.image} // Remove query parameters
+                  src={typeof member.image === 'string' ? member.image : member.image.src}
                   alt={member.name} 
                   className="w-full h-full object-cover"
                 />
