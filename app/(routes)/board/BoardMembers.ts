@@ -8,19 +8,20 @@ import tharul from "./images/Tharul Jayasundara - Media Coordinator.jpeg";
 import sahan from "./images/Sahan_Dinusha_-_Event_Organizing_Committee_Lead_.jpg";
 import gothma from "./images/Gothama Sudharaka - Editor.jpg";
 import nazik from "./images/Mohamed Nazik - Event Coordinator_.png";
+import srimal from "./images/Srimal Rathnayaka -Logistic Committe Lead.jpg";
+import vidhushika from "./images/T. Vidhushika - Finance Committee Lead.jpg";
+import inuka from "./images/Inuka kavinda - Logistic Committee member.jpg";
+import kaveesha from "./images/Kaveesha nimmani-Content writting leader_.jpg";
 import asha from "./images/Asha Janeshwari - Content writing committee member.jpg";
 import binushi from "./images/Binushi Nayanathara- Financial Committee Member.jpg";
 import dilusha from "./images/Dilusha Lakshan - Event Organizing Committee Member.png";
 import osanda from "./images/H. Osada Dimuth Perera - Logistic Committee Member.jpg";
 import heshan from "./images/Hashan Dileepa - Event Organizing Committee Member.jpg";
-import inuka from "./images/Inuka kavinda - Logistic Committee member.jpg";
-import kaveesha from "./images/Kaveesha nimmani-Content writting leader_.jpg";
 import kirushika from "./images/Kirushika Thavanesan- Content Writing Committee_.png";
 import lihini from "./images/lihini charika _ finance committee member .jpg";
 import nethmi from "./images/Nethmi Bandara - Logistic Committee Member.jpg";
 import sehansa from "./images/Sehansa Minduli - Event Organizing Committe Member.jpg";
-import srimal from "./images/Srimal Rathnayaka -Logistic Committe Lead.jpg";
-import vidhushika from "./images/T. Vidhushika - Finance Committee Lead.jpg";
+
 
 
 export const boardMembers = [
@@ -157,6 +158,34 @@ export const ExecutiveCommittee = [
 
 // Committee Members data with year information
 export const committeeMembers = [
+    {
+    id: 13,
+    Status:"Active",
+    name: "Srimal Rathnayaka",
+    role: "",
+    year: "",
+    level: "",
+    image: srimal,
+    social: {
+      linkedin: "https://www.linkedin.com/in/srimal-rathnayaka-702580215",
+      github: "https://github.com/SrimalRathnayaka",
+    },
+  },
+
+  {
+    id: 14,
+    Status:"Active",
+    name: "T.Vidhushika",
+    role: "",
+    year: "",
+    level: "",
+    image: vidhushika,
+    social: {
+      linkedin: "https://www.linkedin.com/in/t-vidhushika-702580215",
+      github: "https://github.com/TVidhushika",
+    },
+  },
+  
   {
     id: 1,
     Status:"Active",
@@ -320,6 +349,7 @@ export const committeeMembers = [
     },
   },
 
+<<<<<<< thinuka
   {
     id: 13,
     Status:"Active",
@@ -347,5 +377,7 @@ export const committeeMembers = [
       github: "https://github.com/TVidhushika",
     },
   },
+=======
+>>>>>>> dev
   // Add more members as needed
 ];
