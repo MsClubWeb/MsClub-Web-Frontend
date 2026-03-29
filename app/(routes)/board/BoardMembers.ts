@@ -158,34 +158,6 @@ export const ExecutiveCommittee = [
 
 // Committee Members data with year information
 export const committeeMembers = [
-    {
-    id: 13,
-    Status:"Active",
-    name: "Srimal Rathnayaka",
-    role: "",
-    year: "",
-    level: "",
-    image: srimal,
-    social: {
-      linkedin: "https://www.linkedin.com/in/srimal-rathnayaka-702580215",
-      github: "https://github.com/SrimalRathnayaka",
-    },
-  },
-
-  {
-    id: 14,
-    Status:"Active",
-    name: "T.Vidhushika",
-    role: "",
-    year: "",
-    level: "",
-    image: vidhushika,
-    social: {
-      linkedin: "https://www.linkedin.com/in/t-vidhushika-702580215",
-      github: "https://github.com/TVidhushika",
-    },
-  },
-  
   {
     id: 1,
     Status:"Active",
@@ -271,7 +243,7 @@ export const committeeMembers = [
     id: 7,
     Status:"Active",
     name: "Kaveesha Nimmani",
-    role: "Content Writing - Leader",
+    role: "Content Writing - Lead",
     year: "",
     level: "",
     image: kaveesha,
@@ -349,7 +321,6 @@ export const committeeMembers = [
     },
   },
 
-<<<<<<< thinuka
   {
     id: 13,
     Status:"Active",
@@ -368,7 +339,7 @@ export const committeeMembers = [
     id: 14,
     Status:"Active",
     name: "T.Vidhushika",
-    role: "Fnance Committee - Lead",
+    role: "Finance Committee - Lead",
     year: "",
     level: "",
     image: vidhushika,
@@ -377,7 +348,5 @@ export const committeeMembers = [
       github: "https://github.com/TVidhushika",
     },
   },
-=======
->>>>>>> dev
   // Add more members as needed
 ];
