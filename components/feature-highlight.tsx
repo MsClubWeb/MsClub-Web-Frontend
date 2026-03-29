@@ -77,14 +77,14 @@ export function FeatureHighlight() {
               </p>
             </div>
 
-            <div className="flex justify-center lg:justify-start">
-              <Button asChild className="bg-blue-600 hover:bg-blue-700 group">
+           {/* <div className="flex justify-center lg:justify-start">
+             <Button asChild className="bg-blue-600 hover:bg-blue-700 group">
                 <Link href="/hackathon" className="flex items-center">
                   More Info
                   <ChevronRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </Link>
               </Button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

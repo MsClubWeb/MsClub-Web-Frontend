@@ -255,7 +255,7 @@ export default function EventsPage() {
       </section>
 
       {/* Category Buttons Section */}
-      <section className="py-8 bg-gradient-to-b from-blue-50 to-white dark:from-blue-950/20 dark:to-background">
+      { /*<section className="py-8 bg-gradient-to-b from-blue-50 to-white dark:from-blue-950/20 dark:to-background">
         <div className="container">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-8">
@@ -290,7 +290,7 @@ export default function EventsPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <div className="container py-12">
         <div className="space-y-10">

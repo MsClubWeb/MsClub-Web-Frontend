@@ -1,51 +1,5 @@
 export const upcomingEvents = [
-  {
-    id: 1,
-    title: "HackMS' 2025",
-    description: "A hands-on hackathon focused on building real-world solutions using Microsoft technologies. Network, code, and compete with the best!",
-    date: "July 5–6, 2025",
-    time: "All Day",
-    location: "Uva Wellassa University",
-    image: "/events/1.png",
-    category: "Hackathon",
-    speakers: [
-      {
-        name: "Chanuka Ratnayake",
-        title: "Senior Software Engineer",
-        company: "Microsoft",
-        image: "/events/propic.png",
-      },
-      {
-        name: "Sarah Chen",
-        title: "Azure Solutions Architect",
-        company: "Microsoft",
-        image: "/events/propic.png",
-      },
-      {
-        name: "David Kumar",
-        title: "AI/ML Specialist",
-        company: "WSO2",
-        image: "/events/propic.png",
-      }
-    ],
-    partners: [
-      {
-        name: "WSO2",
-        logo: "/blog/wso2-logo.png",
-        type: "Gold Sponsor"
-      },
-      {
-        name: "Microsoft",
-        logo: "/blog/microsoft.png",
-        type: "Platinum Sponsor"
-      },
-      {
-        name: "Azure",
-        logo: "/blog/azure.png",
-        type: "Technology Partner"
-      }
-    ]
-  },
+  
   {
     id: 2,
     title: "InnovateX - YouTube Series",
@@ -179,7 +133,53 @@ export const upcomingEvents = [
 
 export const pastEvents = [
 
-
+{
+    id: 103,
+    title: "HackMS' 2025",
+    description: "A hands-on hackathon focused on building real-world solutions using Microsoft technologies. Network, code, and compete with the best!",
+    date: "July 5–6, 2025",
+    time: "All Day",
+    location: "Uva Wellassa University",
+    image: "/events/1.png",
+    category: "Hackathon",
+    speakers: [
+      {
+        name: "Chanuka Ratnayake",
+        title: "Senior Software Engineer",
+        company: "Microsoft",
+        image: "/events/propic.png",
+      },
+      {
+        name: "Sarah Chen",
+        title: "Azure Solutions Architect",
+        company: "Microsoft",
+        image: "/events/propic.png",
+      },
+      {
+        name: "David Kumar",
+        title: "AI/ML Specialist",
+        company: "WSO2",
+        image: "/events/propic.png",
+      }
+    ],
+    partners: [
+      {
+        name: "WSO2",
+        logo: "/blog/wso2-logo.png",
+        type: "Gold Sponsor"
+      },
+      {
+        name: "Microsoft",
+        logo: "/blog/microsoft.png",
+        type: "Platinum Sponsor"
+      },
+      {
+        name: "Azure",
+        logo: "/blog/azure.png",
+        type: "Technology Partner"
+      }
+    ]
+  },
       {
     id: 101,
     title: "Annual General Meeting (AGM)",

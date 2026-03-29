@@ -78,7 +78,7 @@ export default function AboutPage() {
                 </p>
               </div>
               
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            { /*<div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
 
             <Button
               asChild
@@ -97,7 +97,7 @@ export default function AboutPage() {
             >
               <Link href="/contact">Contact Us</Link>
             </Button>
-          </div>
+          </div> */}
 
             </div>
           </section>
