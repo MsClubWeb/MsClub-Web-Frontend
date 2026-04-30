@@ -24,11 +24,7 @@ export function MainNav() {
   }
 
   return (
-    <header
-      className={`sticky top-0 z-50 w-full border-b transition-all duration-300 ${
-        scrolled ? "acrylic depth-2" : "bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60"
-      } uwu-train-track-divider`}
-    >
+    <header className="sticky top-0 z-50 w-full border-b transition-all duration-300 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 uwu-train-track-divider">
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center gap-2">
           <Link href="/" className="flex items-center space-x-2 reveal">
@@ -77,7 +73,6 @@ export function MainNav() {
           >
             About Us
           </Link>
-         
         </nav>
 
         {/* Mobile Menu Button */}
