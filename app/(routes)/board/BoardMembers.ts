@@ -3,7 +3,7 @@ import theekshana from "./images/Theekshana Nirmal.jpg";
 import arini from "./images/Arani Rathnasinghe.jpg";
 import dureka from "./images/Dureka Chethana - Assistant Secretary.jpg";
 import parami from "./images/D.P.H.Parami - Junior Tresurer.jpg";
-import gehan from "./images/Gehan Liyanage - WebMaster.png";
+import gehan from "./images/gehan-liyanage-webmaster.png";
 import tharul from "./images/Tharul Jayasundara - Media Coordinator.jpeg";
 import sahan from "./images/Sahan_Dinusha_-_Event_Organizing_Committee_Lead_.jpg";
 import gothma from "./images/Gothama Sudharaka - Editor.jpg";
