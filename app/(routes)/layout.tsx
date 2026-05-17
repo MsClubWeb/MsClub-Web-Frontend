@@ -1,6 +1,8 @@
 import type React from "react"
 import type { Metadata, Viewport } from "next"
 import ClientLayout from "@/app/(routes)/ClientLayout"
+// Ignore missing type declarations for global CSS side-effect import
+// @ts-ignore
 import '@/app/(routes)/globals.css'
 
 export const viewport: Viewport = {
