@@ -78,7 +78,7 @@ export default function AboutPage() {
                 </p>
               </div>
               
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            { /*<div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
 
             <Button
               asChild
@@ -97,7 +97,7 @@ export default function AboutPage() {
             >
               <Link href="/contact">Contact Us</Link>
             </Button>
-          </div>
+          </div> */}
 
             </div>
           </section>
@@ -168,7 +168,7 @@ export default function AboutPage() {
         <div className="relative motion-fade animate-in fade-in-0 slide-in-from-bottom-5">
           <div className="relative w-80 h-96 rounded-xl overflow-hidden depth-3">
             <Image
-              src="/about_us_page_images/Mission_Section_Img.jpg"
+              src="/about_us_page_images/team.jpeg"
               alt="Club activities"
               fill
               className="object-cover object-center"

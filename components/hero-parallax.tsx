@@ -34,7 +34,7 @@ export function HeroParallax() {
       ></div>
 
       <div
-        className="absolute inset-0 bg-[url('/bod.jpg')] bg-cover bg-center opacity-20 mix-blend-overlay"
+        className="absolute inset-0 bg-[url('/about_us_page_images/team.jpeg')] bg-cover bg-center opacity-20 mix-blend-overlay"
         style={{ transform: `translateY(${calculateParallax(0.1)}px) scale(${1 + scrollY * 0.0005})` }}
       ></div>
 
