@@ -96,7 +96,7 @@ export function Footer() {
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <p className="text-xs text-muted-foreground text-center sm:text-left">
               © {new Date().getFullYear()} Microsoft Student Club of UWU. All rights reserved. • {' '}
-              <a href="/developers" className="text-red-500 hover:text-red-600 transition-colors">
+              <a className="text-red-500 hover:text-red-600 transition-colors">
                 Meet the Devs
               </a>
             </p>

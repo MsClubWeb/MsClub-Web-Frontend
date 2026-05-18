@@ -175,7 +175,7 @@ export default function Home() {
         </div>
       
 
-        <MentorProfiles />
+        {/* <MentorProfiles /> */}
 
 
 
@@ -425,7 +425,7 @@ export default function Home() {
             .map((member, index) => (
               <div 
                 key={member.id} 
-                className="w-12 h-12 rounded-full border-3 border-white overflow-hidden bg-white/10 hover:scale-110 transition-transform duration-200"
+                className="w-12 h-12 rounded-full border-1 border-white overflow-hidden bg-white/10 hover:scale-110 transition-transform duration-200"
                 title={member.name}
               >
                 <img 
@@ -438,7 +438,7 @@ export default function Home() {
           
           {/* Show remaining count if there are more than 6 members */}
           {committeeMembers.filter(member => member.Status === "Active").length > 6 && (
-            <div className="w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full border-3 border-white flex items-center justify-center text-white font-bold text-sm">
+            <div className="w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full border-1 border-white flex items-center justify-center text-white font-bold text-sm">
               {committeeMembers.filter(member => member.Status === "Active").length - 6}+
             </div>
           )}

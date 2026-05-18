@@ -47,18 +47,7 @@ export const blogpost = [
     mediumLink: "https://theek.medium.com/a-beginners-guide-deploying-your-first-static-web-site-using-azure-app-services-400b303fd511",
     authorimage: "/blog/1.jpg?height=500&width=250",
   },
-  {
-    id: 5,
-    title: "How to Create a Bastion Host for Secure Access to Private AWS Servers",
-    excerpt: "A Bastion Host (also known as a Jump Host) is a special server used to securely access other computers or servers in a private network. It acts as a gateway to your internal resources, allowing only trusted users to enter the network.",
-    date: "May 5, 2023",
-    author: "Abishek Haththakage",
-    readTime: "4 min read",
-    image: "/blog/5.jpg?height=500&width=250",
-    category: "Events",
-    mediumLink: "https://medium.com/@abhixsh__/how-to-create-a-bastion-host-for-secure-access-to-private-aws-servers-b2e689c97f99",
-    authorimage: "/blog/1.jpg?height=500&width=250",
-  },
+  
   {
     id: 6,
     title: "Provision an Azure Virtual Machine Using Terraform with Remote State and GitHub Actions",
