@@ -187,7 +187,7 @@ export const pastEvents = [
     date: "January 8, 2025",
     time: "6:00 PM onwards",
     location: "TLT",
-    image: "/images/Annual General Meeting (AGM).jpeg",
+    image: "/images/Events/Annual General Meeting (AGM).jpeg",
     category: "Productivity",
     speakers: [
       {
@@ -234,7 +234,7 @@ export const pastEvents = [
     date: "March 29, 2025",
     time: "All Day",
     location: "University of Ruhuna, Lab 11",
-    image: "/images/Azure Session Series .jpeg",
+    image: "/images/Events/Azure Session Series .jpeg",
     category: "Competition",
     speakers: [
       {
