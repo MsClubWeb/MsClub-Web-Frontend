@@ -87,6 +87,7 @@ export default function BoardPage() {
             ? "ring-2 ring-yellow-400" 
             : ""
           }
+          ${(member as any).isAmbassador ? "ring-2 ring-blue-500 ring-offset-2" : ""}
         `}>
           
           {/* Gold Badge Hover Effect */}
@@ -192,7 +193,7 @@ export default function BoardPage() {
                         </div>
                       )}
 
-                      <div className="h-32 w-32 rounded-full overflow-hidden relative">
+                      <div className={`h-32 w-32 rounded-full overflow-hidden relative ${(member as any).isAmbassador ? "ring-2 ring-blue-500 ring-offset-2" : ""}`}>
                         <Image
                           src={member.image || "/placeholder.svg"}
                           alt={member.name}
@@ -268,7 +269,7 @@ export default function BoardPage() {
                         </div>
                       )}
 
-                      <div className="h-32 w-32 rounded-full overflow-hidden relative">
+                      <div className={`h-32 w-32 rounded-full overflow-hidden relative ${(member as any).isAmbassador ? "ring-2 ring-blue-500 ring-offset-2" : ""}`}>
                         <Image
                           src={member.image || "/placeholder.svg"}
                           alt={member.name}

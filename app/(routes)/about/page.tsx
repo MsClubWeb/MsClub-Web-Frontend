@@ -258,6 +258,14 @@ export default function AboutPage() {
                   image: "/Ruhunu Session.jpg", //Added the image in Ruhuna Session Section
                   position: "left",
                 },
+                {
+                  year: "2026",
+                  title: "HackMS 2026",
+                  description:
+                    "We organized HackMS 2026, an overnight development hackathon in collaboration with RANDOM.",
+                  image: "/hacms.jpeg",
+                  position: "right",
+                },
                 // {
                 //   year: "2021",
                 //   title: "Virtual Transformation",

@@ -33,6 +33,7 @@ export const boardMembers = [
     role: "President",
     year: "2025-2026",
     level: "",
+    isAmbassador: true,
     image: vihini,
     social: {
       linkedin: "https://www.linkedin.com/in/vihini-wathsiluni-a57b1323a",
@@ -104,6 +105,7 @@ export const ExecutiveCommittee = [
     role: "Web Master",
     year: "",
     level: "",
+    isAmbassador: true,
     image: gehan,
     social: {
       linkedin: "https://www.linkedin.com/in/gehan-liyanage-702580215",
@@ -132,6 +134,7 @@ export const ExecutiveCommittee = [
     role: "Event Coordinator",
     year: "",
     level: "",
+    isAmbassador: true,
     image: nazik,
     social: {
       linkedin: "https://www.linkedin.com/in/mohamed-nazik-702580215",
