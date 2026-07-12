@@ -6,7 +6,7 @@ import { Badge } from "@/components/ui/badge"
 import { Search, Calendar, User, Clock, ChevronRight, BookOpen,Brain,Dot,Blocks,ActivitySquare,Github, ArrowRight } from "lucide-react"
 import { Input } from "@/components/ui/input"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { WebPageSchema } from "@/components/structured-data"
+import { WebPageSchema } from "@/components/seo/structured-data"
 import type { Metadata } from "next"
 import { blogpost,featuredPost } from "./blogpost"
 

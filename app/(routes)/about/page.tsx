@@ -29,7 +29,7 @@ import {
   Sparkles,
   Handshake,
 } from "lucide-react";
-import { WebPageSchema } from "@/components/structured-data";
+import { WebPageSchema } from "@/components/seo/structured-data";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {

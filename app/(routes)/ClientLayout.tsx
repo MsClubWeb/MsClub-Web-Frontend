@@ -2,10 +2,10 @@
 
 import type React from "react"
 import { Inter } from "next/font/google"
-import { ThemeProvider } from "@/components/theme-provider"
+import { ThemeProvider } from "@/components/common/theme-provider"
 import { MainNav } from "@/components/layout/main-nav"
 import { Footer } from "@/components/layout/footer"
-import { UwuAesthetics } from "@/components/uwu-aesthetics"
+import { UwuAesthetics } from "@/components/common/uwu-aesthetics"
 import { usePathname } from "next/navigation"
 import "@/app/(routes)/globals.css"
 

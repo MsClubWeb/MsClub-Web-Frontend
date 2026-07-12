@@ -4,8 +4,8 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
 import { CalendarDays, Clock, MapPin, ArrowLeft, ChevronRight } from "lucide-react"
-import { Breadcrumb } from "@/components/breadcrumb"
-import { EventSEO, generateEventMetadata } from "@/components/event-seo"
+import { Breadcrumb } from "@/components/common/breadcrumb"
+import { EventSEO, generateEventMetadata } from "@/components/seo/event-seo"
 import type { Metadata } from "next"
 
 // Mock event data - in a real app, this would come from a database

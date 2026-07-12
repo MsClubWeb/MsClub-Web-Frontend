@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { ChevronRight, Home } from "lucide-react"
-import { BreadcrumbSchema } from "./structured-data"
+import { BreadcrumbSchema } from "@/components/seo/structured-data"
 
 interface BreadcrumbItem {
   label: string

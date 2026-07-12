@@ -105,24 +105,22 @@ export function Reviews() {
             Discover how our community has helped students grow their skills and advance their careers.
           </p>
         </div>
+      </div>
 
-        <div className="relative flex w-full flex-col items-center justify-center overflow-hidden">
-          {/* First row - normal direction */}
-          <Marquee pauseOnHover className="[--duration:25s]">
-            {firstRow.map((review) => (
-              <ReviewCard key={review.username} {...review} />
-            ))}
-          </Marquee>
-          
-          {/* Second row - reverse direction */}
-          <Marquee reverse pauseOnHover className="[--duration:25s]">
-            {secondRow.map((review) => (
-              <ReviewCard key={review.username} {...review} />
-            ))}
-          </Marquee>
-          
-
-        </div>
+      <div className="relative flex w-full flex-col items-center justify-center overflow-hidden">
+        {/* First row - normal direction */}
+        <Marquee pauseOnHover className="[--duration:25s]">
+          {firstRow.map((review) => (
+            <ReviewCard key={review.username} {...review} />
+          ))}
+        </Marquee>
+        
+        {/* Second row - reverse direction */}
+        <Marquee reverse pauseOnHover className="[--duration:25s]">
+          {secondRow.map((review) => (
+            <ReviewCard key={review.username} {...review} />
+          ))}
+        </Marquee>
       </div>
     </section>
   );

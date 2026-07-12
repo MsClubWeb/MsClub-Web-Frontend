@@ -19,11 +19,11 @@ import {
 
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { WebPageSchema } from "@/components/structured-data";
-import UpcomingEvents from "@/components/UpcomingEvents";
-import PastEvents from "@/components/PastEvents";
+import { WebPageSchema } from "@/components/seo/structured-data";
+import UpcomingEvents from "@/components/events/UpcomingEvents";
+import PastEvents from "@/components/events/PastEvents";
 import { useState, useEffect } from "react";
-import EventsCarousel from "@/components/events-carousel";
+import EventsCarousel from "@/components/events/events-carousel";
 
 
 function getUpcomingEvents() {

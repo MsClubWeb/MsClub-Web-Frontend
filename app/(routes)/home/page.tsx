@@ -1,15 +1,15 @@
-import { HeroParallax } from "@/components/hero-parallax";
-import { StatsCounter } from "@/components/stats-counter";
-import { TestimonialSlider } from "@/components/testimonial-slider";
-import UpcomingEvents from "@/components/UpcomingEvents";
+import { HeroParallax } from "@/components/sections/hero-parallax";
+import { StatsCounter } from "@/components/sections/stats-counter";
+import { TestimonialSlider } from "@/components/sections/testimonial-slider";
+import UpcomingEvents from "@/components/events/UpcomingEvents";
 import events from "@/data/events.json";
-import PastEvents from "@/components/PastEvents";
-import { GalleryCarousel } from "@/components/gallery-carousel";
-import { PartnersGrid } from "@/components/partners-grid";
-import { FeatureHighlight } from "@/components/feature-highlight";
-import { ContactForm } from "@/components/contact-form";
-// import { MentorshipProgram } from "@/components/mentorship";
-// import { UWUAesthetics } from "@/components/uwu-aesthetics";
+import PastEvents from "@/components/events/PastEvents";
+import { GalleryCarousel } from "@/components/sections/gallery-carousel";
+import { PartnersGrid } from "@/components/sections/partners-grid";
+import { FeatureHighlight } from "@/components/sections/feature-highlight";
+import { ContactForm } from "@/components/sections/contact-form";
+// import { MentorshipProgram } from "@/components/sections/mentorship";
+// import { UWUAesthetics } from "@/components/common/uwu-aesthetics";
 
 export default function Home() {
   return (

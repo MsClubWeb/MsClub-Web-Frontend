@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Linkedin, Github, Calendar } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { WebPageSchema } from "@/components/structured-data"
+import { WebPageSchema } from "@/components/seo/structured-data"
 import type { Metadata } from "next"
 import { boardMembers, ExecutiveCommittee, committeeMembers } from "./BoardMembers"
 
